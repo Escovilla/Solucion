@@ -16,10 +16,12 @@ const typewriter = new Typewriter('#typewriter', {
 const typewriter2 = new Typewriter('#typewriterMobile', {
     loop: false,
 });
+
 const typewritertext = new Typewriter('#typewritertext', {
     loop: false,
 });
  
+
 function myFunction(x) {
     if (x.matches) { // If media query matches
         $("#typewriterMobile").show();
@@ -54,8 +56,16 @@ function myFunction(x) {
         .typeString('<strong>Solucion</strong>')    
         .start();
 
-        typewritertext.typeString('<strong>Coming soon</strong> ')
-        .start();
+        
+        setTimeout(function(){ 
+            $("#typewritertext").show();
+           
+            typewritertext.typeString('<strong> Coming soon</strong> ')
+            .start();
+            console.log("wheyglhu") 
+        }, 22550);
+
+        
     }
     }
     
