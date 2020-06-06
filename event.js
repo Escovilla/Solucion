@@ -52,10 +52,10 @@ function myFunction(x) {
         .pauseFor(2500)
         .deleteAll()
         .typeString('<strong>Solucion</strong>')  
-        .pauseFor(7100)
         .start();
 
         typewritertext.typeString('<strong>Coming soon</strong> ')
+       .pauseFor(7100)
         .start();
     }
     }
