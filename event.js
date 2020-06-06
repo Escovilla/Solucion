@@ -53,21 +53,17 @@ function myFunction(x) {
         .typeString('me, take a <strong>look</strong> around')
         .pauseFor(2500)
         .deleteAll()
-        .typeString('<strong>Solucion</strong>')    
+        .typeString('<strong>Solucion</strong>')  
         .start();
 
         
         setTimeout(function(){ 
             $("#typewritertext").show();
-           
             typewritertext.typeString('<strong> Coming soon</strong> ')
             .start();
-            console.log("wheyglhu") 
         }, 22550);
-
-        
     }
-    }
+}
     
     var x = window.matchMedia("(max-width: 530px)")
     myFunction(x) // Call listener function at run time
