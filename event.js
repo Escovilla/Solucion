@@ -55,7 +55,7 @@ function myFunction(x) {
         .start();
         
         typewritertext
-        .pauseFor(7100)
+        .pauseFor(17100)
         .typeString('<strong>Coming soon</strong> ')
        
         .start();
