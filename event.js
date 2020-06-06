@@ -53,9 +53,11 @@ function myFunction(x) {
         .deleteAll()
         .typeString('<strong>Solucion</strong>')  
         .start();
-
-        typewritertext.typeString('<strong>Coming soon</strong> ')
-       .pauseFor(7100)
+        
+        typewritertext
+        .pauseFor(7100)
+        .typeString('<strong>Coming soon</strong> ')
+       
         .start();
     }
     }
