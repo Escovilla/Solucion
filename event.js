@@ -51,7 +51,8 @@ function myFunction(x) {
         .typeString('me, take a <strong>look</strong> around')
         .pauseFor(2500)
         .deleteAll()
-        .typeString('<strong>Solucion</strong>')    
+        .typeString('<strong>Solucion</strong>')  
+        .pauseFor(7100)
         .start();
 
         typewritertext.typeString('<strong>Coming soon</strong> ')
