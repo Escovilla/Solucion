@@ -26,10 +26,10 @@ function myFunction(x) {
     if (x.matches) { // If media query matches
         $("#typewriterMobile").show();
         $("#typewritertext").hide();
-        typewriter.typeString('<strong>Solucion</strong>')
+        typewriter.typeString('<strong>Nico Escovilla</strong>')
         .start();
         typewriter2.pauseFor(1500)
-        .typeString('Hello We <br> Make Websites!')
+        .typeString('Hello I <br> Make Websites!')
         .pauseFor(2500)
         .deleteAll()
         
@@ -44,7 +44,7 @@ function myFunction(x) {
         .typeString('<strong>Coming soon</strong> ')
         .start();
     } else {
-        typewriter.typeString('Hello We Make Websites!')
+        typewriter.typeString('Hello I Make Websites!')
         .pauseFor(4500)
         .deleteAll()
         .typeString('Welcoem, take')
@@ -53,7 +53,7 @@ function myFunction(x) {
         .typeString('me, take a <strong>look</strong> around')
         .pauseFor(2500)
         .deleteAll()
-        .typeString('<strong>Solucion</strong>')  
+        .typeString('<strong>Nico Escovilla</strong>')  
         .start();
 
         
