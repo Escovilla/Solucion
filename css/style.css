@@ -120,7 +120,7 @@ body{
 @media screen and (max-width: 600px) {
   .topnavsimple a.icon {
     text-align: right;
-    margin-right: 20px;
+    margin-right: 10px;
     display: block;
   }
 }
